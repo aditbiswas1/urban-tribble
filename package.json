@@ -1,0 +1,23 @@
+{
+  "name": "urban-tribble",
+  "version": "1.0.0",
+  "description": "Cab booking app concept using rethinkDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditbiswas1/urban-tribble.git"
+  },
+  "keywords": [
+    "rethinkDB",
+    "node"
+  ],
+  "author": "Adit Biswas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aditbiswas1/urban-tribble/issues"
+  },
+  "homepage": "https://github.com/aditbiswas1/urban-tribble#readme"
+}
