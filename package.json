@@ -4,7 +4,7 @@
   "description": "Cab booking app concept using rethinkDB",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/aditbiswas1/urban-tribble/issues"
   },
-  "homepage": "https://github.com/aditbiswas1/urban-tribble#readme"
+  "homepage": "https://github.com/aditbiswas1/urban-tribble#readme",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "2.2.0",
+    "express": "4.14.0",
+    "express-session": "1.13.0",
+    "rethinkdb": "2.3.2",
+    "socket.io": "1.4.6"
+  }
 }
