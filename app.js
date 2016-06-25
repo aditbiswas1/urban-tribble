@@ -21,4 +21,11 @@ app.get('/', function(request, response){
   response.send('<h1>Hello World</h1>');
 });
 
-server.listen(8000);
+server.listen(8000);  
+
+io.on('connection', function(socket){
+  io.emit('welcome', {for: 'everyone'});
+  socket.on('disconnect', function(){
+    console.log('A connection disconnected');
+  });
+});
